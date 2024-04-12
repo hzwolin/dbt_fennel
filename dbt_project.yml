@@ -40,3 +40,13 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+
+models:
+  my_new_project:
+    # Applies to all files under models/staging/
+    staging:
+        materialized: table
+    prep:
+        materialized: table
+    mart:
+        materialized: table
