@@ -36,4 +36,4 @@ filtering_ordering_features AS (
     FROM adding_features
 )
 SELECT * 
-FROM filtering_ordering_features;
+FROM filtering_ordering_features
