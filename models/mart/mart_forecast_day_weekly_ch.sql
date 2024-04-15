@@ -32,7 +32,14 @@ filtering_ordering_features AS (
         condition_code,
         max_wind_kph,
         avg_vis_km,
-        uv
+        uv,
+        good_temp,
+        good_avg,
+        no_rain,
+        good_rain,
+        good_wind,
+        good_vis,
+        sunscreen_needed
     FROM adding_features
 )
 SELECT * 
