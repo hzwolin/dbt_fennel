@@ -22,6 +22,7 @@ filtering_ordering_features AS (
         date,
         city,
         country,
+        month_of_year,
         max_temp_c,
         min_temp_c,
         avg_temp_c,
