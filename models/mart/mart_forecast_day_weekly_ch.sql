@@ -42,7 +42,7 @@ filtering_ordering_features AS (
         good_vis,
         sunscreen_needed,
         lat,
-        lon,
+        lon
     FROM adding_features
 )
 SELECT * 
