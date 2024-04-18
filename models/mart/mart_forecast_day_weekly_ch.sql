@@ -40,7 +40,10 @@ filtering_ordering_features AS (
         good_rain,
         good_wind,
         good_vis,
-        sunscreen_needed
+        sunscreen_needed,
+        lat,
+        lon,
+        country
     FROM adding_features
 )
 SELECT * 
