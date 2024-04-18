@@ -43,7 +43,6 @@ filtering_ordering_features AS (
         sunscreen_needed,
         lat,
         lon,
-        country
     FROM adding_features
 )
 SELECT * 
